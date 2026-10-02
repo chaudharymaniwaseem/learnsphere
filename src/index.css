@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+body {
+  background: #0b1020;
+  color: #e8ecff;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.card {
+  background: #151d3b;
+  border: 1px solid #232c52;
+  border-radius: 16px;
+  padding: 24px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.card:hover {
+  border-color: #6c5ce7;
+  transform: translateY(-3px);
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-weight: 600;
+  background: linear-gradient(90deg, #6c5ce7, #00d4ff);
+  color: white;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
